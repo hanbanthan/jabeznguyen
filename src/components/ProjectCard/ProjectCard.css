@@ -18,6 +18,16 @@
     height: 16rem;
 }
 
+@media (max-width: 768px) {
+    .project-card {
+        height: 12rem;
+        width: 90%;
+    }
+    .project-blurb {
+        font-size: 0.8rem;
+    }
+}
+
 .project-card:hover {
     transform: scale(1.05);
 }
